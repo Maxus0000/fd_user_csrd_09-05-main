@@ -39,8 +39,22 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.btn-wrapper{
+  border-top: 1px solid rgb(239, 235, 235);
+  border-bottom: 1px solid rgb(239, 235, 235);
+  
+}
 .btn{
   max-width: 40%;
+}
+.green:hover{
+  color: white;
+  background-color:green;
+}
+.blue:hover{
+  color:white;
+  background-color:#17a2b8;
+
 }
 .card-footer{
   background-color: var(--main-color);
@@ -55,4 +69,10 @@
 }
 .twitter{
   background-image: url(./../icons/twitter.png);
+}
+.google{
+  background-image: url(../icons/google-plus.png);
+}
+.fb{
+  background-image: url(../icons/facebook.png);
 }
